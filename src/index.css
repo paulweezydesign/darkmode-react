@@ -1,4 +1,4 @@
-body {
+body {  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,13 +15,13 @@ code {
 :root {
   --background: white;
   --text-primary: black;
-  --text-secondary: royalblue;
-  --accent: purple;
+  --text-secondary: rebeccapurple;
+  --accent: deeppink;
 }
 
 [data-theme='dark'] {
-  --background: black;
-  --text-primary: white;
-  --text-secondary: grey;
-  --accent: darkred;
+  --background: #232323;
+  --text-primary: whitesmoke;
+  --text-secondary:rebeccapurple;
+  --accent: deeppink;
 }
